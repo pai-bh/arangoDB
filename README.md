@@ -33,4 +33,3 @@ $ docker run -e ARANGO_ROOT_PASSWORD=password -p 8529:8529 -d --name arangodb ar
 ID : root
 PW : password
 ```
-

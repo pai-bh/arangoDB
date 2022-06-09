@@ -20,7 +20,12 @@ $ docker pull arangodb/arangodb:3.9.0-noavx
 ```
 # 이미지 불러오기
 ```
-$ docker run -e ARANGO_ROOT_PASSWORD=password -p 8529:8529 -d --name arangodb arangodb/arangodb:3.9.0-noavx
+$ docker run \
+  -e ARANGO_ROOT_PASSWORD=password \
+  -p 8529:8529 \
+  -d \
+  --name arangodb \
+  arangodb/arangodb:3.9.0-noavx
 ```
 
  <img width="1405" alt="image" src="https://user-images.githubusercontent.com/83193687/171561553-acede20c-e895-4d20-8002-0cea2ed34328.png">
